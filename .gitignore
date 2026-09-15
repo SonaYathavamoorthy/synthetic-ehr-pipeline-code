@@ -1,0 +1,22 @@
+# Raw and processed data are regenerated, not versioned (large + derivable)
+data/raw/*.csv
+data/processed/*.db
+data/processed/*.csv
+data/processed/*.png
+!data/processed/.gitkeep
+
+# Synthea jar + its own output dir
+synthea-with-dependencies.jar
+output/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
